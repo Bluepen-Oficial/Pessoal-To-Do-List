@@ -1,7 +1,5 @@
 # Pessoal-To-Do-List v1.0
 
-# Afazeres Projeto · v1.0
-
 Gerenciador de tarefas diárias feito para uso pessoal. Surgiu da necessidade de parar de depender de papel e ter algo simples e funcional sempre à mão.
 
 ## Funcionalidades
