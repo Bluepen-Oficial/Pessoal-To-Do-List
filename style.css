@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #4a90e2;
+    --bg-color: #f4f7f6;
+    --text-color: #333;
+    --card-bg: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    border-left: 5px solid var(--primary-color);
+    padding-left: 15px;
+}
+
+.itens {
+    margin: 12px 0;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary-color);
+    border: none;
+    background-color: red;
+}
+
+label {
+    font-size: 1rem;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+/* Efeito de risco quando marcar o check */
+input[type="checkbox"]:checked+label {
+    color: #bbb;
+    text-decoration: line-through;
+}
+
+input[type="checkbox"]:hover+label {
+    color: var(--primary-color);
+}
+
+#container {
+background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
