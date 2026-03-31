@@ -1,6 +1,9 @@
 const inputTarefa = document.getElementById('nova-atividade');
 const btnAdicionar = document.getElementById('btn-adicionar');
 const listaContainer = document.getElementById('lista-tarefas');
+const titulo = document.querySelector('#titulo');
+const data = new Date();
+titulo.innerHTML  = data.toLocaleDateString();
 
 document.addEventListener('DOMContentLoaded', carregarTarefas);
 
