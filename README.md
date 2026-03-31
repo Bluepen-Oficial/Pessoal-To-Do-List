@@ -1,4 +1,4 @@
-# Pessoal-To-Do-List v1.0
+# Pessoal-To-Do-List v1.01
 
 Gerenciador de tarefas diárias feito para uso pessoal. Surgiu da necessidade de parar de depender de papel e ter algo simples e funcional sempre à mão.
 
